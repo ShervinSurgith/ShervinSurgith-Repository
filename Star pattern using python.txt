@@ -1,0 +1,55 @@
+n=4
+for i in range(n):
+    print("                    ",end=" ")
+    for j in range(i,n):
+        print(" ",end=" ")
+    for k in range(i):
+        print("*",end=" ")
+    for a in range(i+1):
+        print("*",end=" ")
+    print("")
+for  b in range(n):
+    for ab in range(b,n):
+        print("   ",end="  ")
+    for ba in range(b+1):
+        print("*",end="  ")
+    for ac in range(i,n):
+        print(" ",end="")
+    for ca in range(i+1):
+        print("*",end="  ")
+    for c in range(b,n):
+        print("",end="")
+    for d in range(b+1):
+        print("*",end="  ")
+    for e in range(b+1):
+        print("*",end="  ")
+    print("")
+for ib in range(n):
+    print(" ",end="")
+    for jb in range(ib+1):
+        print(" ",end="    ")
+    for jb in range(ib,n):
+        print("*",end="  ")
+    for abx in range(n):
+        print("*",end=" ")
+    for axb in range(n-1):
+        print("*",end="  ")
+    for ija in range(ib,n-1):
+        print("* ",end="")
+    for bzx in range(ib,3):
+        print("*",end="   ")
+    print("")
+for en in range(n+1):
+    print("         ",end=" ")
+    for jbl in range(en,n):
+        print("  ",end="")
+    for ikm in range(en,n+1):
+        print("*",end=" ")
+    for ebse in range(en):
+        print("",end="  ")
+    for ebse in range(en+1):
+        print(" ",end="    ")
+    for cbse in range(en,n+1):
+        print("*",end=" ")
+
+    print("")
